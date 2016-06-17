@@ -131,6 +131,7 @@ Runnable update;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Schedule.class);
+
                 startActivity(intent);
             }
         });
@@ -144,9 +145,6 @@ Runnable update;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, NoLecture.class);
-                mWebview.destroy();
-                hokouLecture.destroy();
-                noLecture.destroy();
                 startActivity(intent);
             }
         });
