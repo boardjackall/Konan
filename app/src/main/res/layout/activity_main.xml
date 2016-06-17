@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kyuukouweb" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginweb" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hokouweb" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学生時間割"
+            android:id="@+id/jikanwari" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出欠状況確認"
+            android:id="@+id/attbtn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEATHER"
+            android:id="@+id/btnd" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIBRARY"
+            android:id="@+id/btn_library" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:text="休講情報"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kyuukou_btn" />
+
+        <TextView
+            android:text="休講情報を確認しています..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newNoLecture" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="補講情報"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hokou_btn" />
+
+        <TextView
+            android:text="補講情報を確認しています..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_hokou"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="スケジュール"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedule_btn"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
