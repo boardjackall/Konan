@@ -21,7 +21,7 @@ import org.w3c.dom.Text;
 import static android.R.attr.data;
 import static android.content.Context.MODE_PRIVATE;
 import static android.view.View.GONE;
-
+asdf
 public class MainActivity extends AppCompatActivity {
     WebView mWebview;
     WebView noLecture;
