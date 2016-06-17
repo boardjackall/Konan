@@ -38,7 +38,8 @@ public class NoLecture extends AppCompatActivity {
         nolectureweb.getSettings().setBuiltInZoomControls(true);
         nolectureweb.getSettings().setJavaScriptEnabled(true);
 
-        //nolectureweb.setVisibility(GONE);
+        
+
 
         //adapterのインスタンスを作成
         final ArrayAdapter<String> adapter =
