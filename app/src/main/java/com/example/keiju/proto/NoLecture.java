@@ -39,6 +39,7 @@ public class NoLecture extends AppCompatActivity {
         nolectureweb.getSettings().setJavaScriptEnabled(true);
 
 
+        
         //adapterのインスタンスを作成
         final ArrayAdapter<String> adapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
